@@ -9,27 +9,26 @@ import VideoCard from '../components/VideoCard';
 export default function Home({ videos }) {
   return (
     <Container>
-      <div className="flex flex-col justify-center items-start max-w-2xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
+      <div className="flex flex-col justify-center items-start max-w-4xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
         <div className="flex flex-col-reverse sm:flex-row items-start">
           <div className="flex flex-col pr-8">
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
-              Lee Robinson
+              Debopriya Deb Roy
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-              Director of Developer Relations at{' '}
-              <span className="font-semibold">Vercel</span>
+              Currently studing CSE at{' '}
+              <span className="font-semibold">Ahsanullah University Of Science and Technology</span>
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-16">
-              Helping developers build a faster web. Teaching about web
-              development, serverless, and React / Next.js.
+            I'm currently an undergraduate student at Delhi Technological University(DTU), pursuing B.Tech in Software Engineering. Currently learning Data Structures and Algorithms, while understanding and implementing the fundamentals of computer engineering and learning web development. As an amateur trying for photography and creating YouTube contents in my leisure.
             </p>
           </div>
           <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
             <Image
-              alt="Lee Robinson"
+              alt="Debopriya Deb Roy"
               height={176}
               width={176}
-              src="/avatar.jpg"
+              src="/authorNew.jpg"
               className="rounded-full filter grayscale"
             />
           </div>
@@ -37,7 +36,7 @@ export default function Home({ videos }) {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
           Featured Posts
         </h3>
-        <div className="flex gap-6 flex-col md:flex-row">
+        {/* <div className="flex gap-6 flex-col md:flex-row">
           <BlogPostCard
             title="Everything I Know About Style Guides, Design Systems, and Component Libraries"
             slug="style-guides-component-libraries-design-systems"
@@ -53,7 +52,7 @@ export default function Home({ videos }) {
             slug="react-state-management"
             gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
           />
-        </div>
+        </div> */}
         <Link href="/blog">
           <a className="flex mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
             Read all posts
