@@ -25,7 +25,6 @@ export default function GuestbookPage({ fallbackData }) {
             gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
           />
         </div> */}
-
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-16 text-black dark:text-white">
           Learn React & Next.js
         </h3>
