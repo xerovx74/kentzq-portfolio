@@ -12,15 +12,22 @@ export default function Home({ videos }) {
       <div className="flex flex-col justify-center items-start max-w-4xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
         <div className="flex flex-col-reverse sm:flex-row items-start">
           <div className="flex flex-col pr-8">
-            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
+            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-3 text-black dark:text-white">
               Debopriya Deb Roy
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
               Currently studing CSE at{' '}
-              <span className="font-semibold">Ahsanullah University Of Science and Technology</span>
+              <span className="font-semibold">
+                Ahsanullah University Of Science and Technology
+              </span>
             </h2>
             <p className="text-gray-600 dark:text-gray-400 mb-16">
-            I'm currently an undergraduate student at Delhi Technological University(DTU), pursuing B.Tech in Software Engineering. Currently learning Data Structures and Algorithms, while understanding and implementing the fundamentals of computer engineering and learning web development. As an amateur trying for photography and creating YouTube contents in my leisure.
+              I'm currently an undergraduate student at Delhi Technological
+              University(DTU), pursuing B.Tech in Software Engineering.
+              Currently learning Data Structures and Algorithms, while
+              understanding and implementing the fundamentals of computer
+              engineering and learning web development. As an amateur trying for
+              photography and creating YouTube contents in my leisure.
             </p>
           </div>
           <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
