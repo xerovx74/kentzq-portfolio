@@ -4,7 +4,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const userResponse = await fetch('https://api.github.com/users/leerob');
+  const userResponse = await fetch('https://api.github.com/users/DDR13GIT');
   const userReposResponse = await fetch(
     'https://api.github.com/users/leerob/repos?per_page=100'
   );
