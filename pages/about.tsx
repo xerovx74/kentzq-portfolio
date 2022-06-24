@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Container from 'components/Container';
 import avatar from 'public/avatar.jpg';
 import avatarBW from 'public/avatar-bw.jpg';
+import VideoCard from '../components/VideoCard';
 
 export default function About() {
   return (
@@ -16,62 +17,31 @@ export default function About() {
           <h2>Links</h2>
           <ul>
             <li>
-              Twitter: <a href="https://twitter.com/leeerob">@leeerob</a>
+              LinkedIn:{' '}
+              <a href="https://www.linkedin.com/in/debopriyadebroy/">
+                https://www.linkedin.com/in/debopriyadebroy
+              </a>
             </li>
             <li>
-              GitHub: <a href="https://github.com/leerob">@leerob</a>
+              GitHub: <a href="https://github.com/leerob">@ddr13Git</a>
             </li>
             <li>
               Website:{' '}
-              <Link href="https://leerob.io">
-                <a>https://leerob.io</a>
+              <Link href="https://debopriyadebroy.io">
+                <a>https://debopriyadebroy.io</a>
               </Link>
             </li>
             <li>
-              LinkedIn:{' '}
-              <a href="https://www.linkedin.com/in/leeerob/">
-                https://www.linkedin.com/in/leeerob
+              Facebook:{' '}
+              <a href="https://facebook.com/debopriya.deb.roy/">
+                @Debopriya Deb Roy
               </a>
             </li>
           </ul>
           <h2>Bio</h2>
           <h3>Job Title</h3>
           <p>Lee Robinson, Director of Developer Relations at Vercel</p>
-          <h3>Long, 3rd Person</h3>
-          <p>
-            Lee Robinson is the Director of Developer Relations at{' '}
-            <a href="http://vercel.com/">Vercel</a>, where he helps developers
-            build a faster web and leads the Next.js community. Prior to that,
-            Lee was a Senior Software Engineer focused on the frontend. An
-            educator, writer, and speaker, Lee has also created extensive
-            courses on React and Next.js.
-          </p>
-          <h3>Long, 1st Person</h3>
-          <p>
-            Hey, I'm Lee. I lead Developer Relations at{' '}
-            <a href="https://vercel.com/">Vercel</a>, where my team helps
-            developers build a faster web. I'm a Next.js contributor and help
-            lead our open-source communities. I've passionate about frontend
-            development and have created courses on React, Next.js, and web
-            development. I'm an advisor and investor in early stage startups.
-          </p>
-          <h3>Short, 3rd Person</h3>
-          <p>
-            Lee Robinson is the Director of Developer Relations at{' '}
-            <a href="http://vercel.com/">Vercel</a>, where he helps developers
-            build a faster web.
-          </p>
-          <h3>Short, 1st Person</h3>
-          <p>
-            Hey, I'm Lee. I lead Developer Relations at{' '}
-            <a href="https://vercel.com/">Vercel</a>, where my team helps
-            developers build a faster web.
-          </p>
-          <h3>Education</h3>
-          <p>
-            Lee Robinson graduated from Iowa State University with a BS in
-            Computer Engineering.
-          </p>
+
           <h2>Headshots</h2>
           <div className="flex space-x-8">
             <a href="/avatar.jpg">
@@ -94,6 +64,61 @@ export default function About() {
             </a>
           </div>
         </div>
+      </div>
+
+      <div className="flex flex-col justify-center items-start max-w-4xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
+        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-16 text-black dark:text-white">
+          Watch my tutorials
+        </h3>
+        <p className="text-gray-600 dark:text-gray-400 mb-4">
+          It's some tutorials that I made with care and time.
+        </p>
+        <VideoCard
+          index="01"
+          href="https://www.youtube.com/watch?v=MxR5I5_hOKk&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=2"
+          length="1:02:45"
+          title="Introduction to React 2025"
+        />
+        <VideoCard
+          index="02"
+          href="https://www.youtube.com/watch?v=AGl52moyISU&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=3"
+          length="54:22"
+          title="Firestore, Chakra UI, Absolute Imports"
+        />
+        <VideoCard
+          index="03"
+          href="https://www.youtube.com/watch?v=3g6-v3_BNbM&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=4"
+          length="1:08:30"
+          title="Designing & Building the Dashboard"
+        />
+        <VideoCard
+          index="04"
+          href="https://www.youtube.com/watch?v=u8iv_yhSRI8&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=5"
+          length="1:13:45"
+          title="Firebase Admin with Next.js + SWR"
+        />
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.youtube.com/playlist?list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1"
+          className="flex mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6"
+        >
+          Watch all videos
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            className="h-6 w-6 ml-1"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M17.5 12h-15m11.667-4l3.333 4-3.333-4zm3.333 4l-3.333 4 3.333-4z"
+            />
+          </svg>
+        </a>
       </div>
     </Container>
   );
