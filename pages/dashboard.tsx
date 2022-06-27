@@ -5,7 +5,7 @@ import Container from 'components/Container';
 export default function Dashboard() {
   return (
     <Container
-      title="Dashboard – Lee Robinson"
+      title="Dashboard – Debopriya Deb Roy"
       description="My personal dashboard, built with Next.js API routes deployed as serverless functions."
     >
       <div className="flex flex-col justify-center items-start max-w-4xl mx-auto mb-16">

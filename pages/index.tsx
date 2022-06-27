@@ -27,13 +27,13 @@ export default function Home({ videos }) {
               of computer engineering and learning web development.
             </p>
           </div>
-          <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
+          <div className="w-[100px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
             <Image
               alt="Debopriya Deb Roy"
-              height={400}
-              width={400}
-              src="/authorNew.jpg"
-              className="rounded-2xl"
+              height={900}
+              width={900}
+              src="/author.jpg"
+              className="rounded-full"
             />
           </div>
         </div>
