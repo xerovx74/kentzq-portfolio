@@ -19,16 +19,16 @@ export default function About() {
             <li>
               LinkedIn:{' '}
               <a href="https://www.linkedin.com/in/debopriyadebroy/">
-                https://www.linkedin.com/in/debopriyadebroy
+                debopriyadebroy
               </a>
             </li>
             <li>
-              GitHub: <a href="https://github.com/leerob">@ddr13Git</a>
+              GitHub: <a href="https://github.com/DDR13GIT">@ddr13Git</a>
             </li>
             <li>
               Website:{' '}
-              <Link href="https://debopriyadebroy.io">
-                <a>https://debopriyadebroy.io</a>
+              <Link href="https://debopriyadebroy.vercel.app">
+                <a>https://debopriyadebroy.vercel.app</a>
               </Link>
             </li>
             <li>
@@ -40,14 +40,15 @@ export default function About() {
           </ul>
           <h2>Bio</h2>
           <h3>Job Title</h3>
-          <p>Lee Robinson, Director of Developer Relations at Vercel</p>
+          <p>Java Trainer at Nexvalli [2022-Present]</p>
 
           <h2>Headshots</h2>
           <div className="flex space-x-8">
             <a href="/avatar.jpg">
               <Image
-                alt="Lee Robinson headshot"
+                alt="Debopriya Deb Roy headshot"
                 width={400}
+                height={400}
                 quality={100}
                 src={avatar}
                 className="rounded-md"
@@ -55,8 +56,9 @@ export default function About() {
             </a>
             <a href="/avatar-bw.jpg">
               <Image
-                alt="Lee Robinson headshot"
+                alt="Debopriya Deb Roy headshot"
                 width={400}
+                height={400}
                 quality={100}
                 src={avatarBW}
                 className="rounded-md"

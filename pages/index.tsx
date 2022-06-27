@@ -30,10 +30,10 @@ export default function Home({ videos }) {
           <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
             <Image
               alt="Debopriya Deb Roy"
-              height={176}
-              width={176}
+              height={400}
+              width={400}
               src="/authorNew.jpg"
-              className="rounded-full filter grayscale"
+              className="rounded-2xl"
             />
           </div>
         </div>
