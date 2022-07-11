@@ -37,17 +37,38 @@ export default function Home({ videos }) {
             />
           </div>
         </div>
+        <button className="relative inline-flex items-center justify-center p-0.5 mb-10 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white  focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+          <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-100 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+            Download Resume
+          </span>
+        </button>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
           Featured Projects
         </h3>
-        <div className="flex gap-6 flex-col md:flex-row">
+        <div className="lg:grid lg:grid-cols-2 gap-6 grid grid-cols-1 ">
           <BlogPostCard
             title="Download the latest Resume {last updated on 24th June, 2022}"
-            slug="style-guides-component-libraries-design-systems"
+            slug="https://github.com/DDR13GIT/Karu_Android-app"
             gradient="from-[#D8B4FE] to-[#818CF8]"
+            techs=""
+            description=""
+          />
+          <BlogPostCard
+            title="Hobe Naki Tour"
+            slug="https://github.com/DDR13GIT/Karu_Android-app"
+            gradient="from-[#D8B4FE] to-[#818CF8]"
+            techs="php | tailwindCSS | html | mySQL"
+            description="The Tours and Travel Management System is a web-based application. The system that automates the processes and activities of a travel agency. This application provides best travelling services to the customers and travel agents. The goal is to design a framework by which all operation relating to travel can be carried out. Here we have two part one is admin part and other is user part. Admin can add, update& delete user, category, package. User can select travel category, package & book them. Here we have different kind of packages & categories Main Features"
+          />
+          <BlogPostCard
+            title="Hobe Naki Tour"
+            slug="https://github.com/DDR13GIT/Karu_Android-app"
+            gradient="from-[#D8B4FE] to-[#818CF8]"
+            techs="php | tailwindCSS | html | mySQL"
+            description="The Tours and Travel Management System is a web-based application. The system that automates the processes and activities of a travel agency. This application provides best travelling services to the customers and travel agents. The goal is to design a framework by which all operation relating to travel can be carried out. Here we have two part one is admin part and other is user part. Admin can add, update& delete user, category, package. User can select travel category, package & book them. Here we have different kind of packages & categories Main Features"
           />
         </div>
-        <Link href="/blog">
+        <Link href="/projects">
           <a className="flex mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
             See all projects
             <svg
