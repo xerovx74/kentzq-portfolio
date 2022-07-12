@@ -5,6 +5,14 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      listStyleType: {
+        none: 'none',
+        disc: 'disc',
+        decimal: 'decimal',
+        square: 'square',
+        roman: 'upper-roman',
+        triangle: 'triangle'
+      },
       colors: {
         'blue-opaque': 'rgb(13 42 148 / 18%)',
         gray: {
@@ -91,6 +99,7 @@ module.exports = {
       })
     }
   },
+
   variants: {
     typography: ['dark']
   },

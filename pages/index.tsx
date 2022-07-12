@@ -10,6 +10,9 @@ export default function Home({ videos }) {
       <div className="flex flex-col justify-center items-start max-w-4xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
         <div className="flex flex-col-reverse sm:flex-row items-start">
           <div className="flex flex-col pr-8">
+            <h1 className="font-bold text-sm  tracking-wide mb-3 text-black dark:text-white">
+              Hi, my name is
+            </h1>
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-3 text-black dark:text-white">
               Debopriya Deb Roy
             </h1>
@@ -19,12 +22,24 @@ export default function Home({ videos }) {
                 Ahsanullah University Of Science and Technology
               </span>
             </h2>
+            <p className="text-gray-600 dark:text-gray-400 mb-5">
+              I'm an undergraduate student at Ahsanullah University of Science
+              and Technology(AUST), pursuing B.Eng in Computer Science and
+              Engineering. Also working part-time as a Java Trainer at{' '}
+              <span className="font-semibold dark:text-gray-200 hover:underline">
+                Nexxvali
+              </span>
+            </p>
             <p className="text-gray-600 dark:text-gray-400 mb-16">
-              I'm currently an undergraduate student at Ahsanullah University of
-              Science and Technology(AUST), pursuing B.Eng in Computer Science
-              and Engineering. Currently learning Data Structures and
-              Algorithms, while understanding and implementing the fundamentals
-              of computer engineering and learning web development.
+              Here are a few technologies I’ve been learning & working with
+              recently:
+              <ul className="list-inside list-disc">
+                <li>JavaScript (ES6+)</li>
+                <li>Node.js</li>
+                <li>ASP.Net (MVC architecture)</li>
+                <li>React</li>
+                <li>TypeScript</li>
+              </ul>
             </p>
           </div>
           <div className="w-[100px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
