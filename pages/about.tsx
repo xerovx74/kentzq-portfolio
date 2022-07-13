@@ -14,7 +14,7 @@ export default function About() {
           About Me
         </h1>
         <div className="mb-8 prose dark:prose-dark leading-6">
-          <h2>Links</h2>
+          <h2>Contact Links</h2>
           <ul>
             <li>
               LinkedIn:{' '}
@@ -26,10 +26,7 @@ export default function About() {
               GitHub: <a href="https://github.com/DDR13GIT">@ddr13Git</a>
             </li>
             <li>
-              Website:{' '}
-              <Link href="https://debopriyadebroy.vercel.app">
-                <a>https://debopriyadebroy.vercel.app</a>
-              </Link>
+              Website: <a>https://debopriyadebroy.vercel.app</a>
             </li>
             <li>
               Facebook:{' '}
@@ -38,9 +35,17 @@ export default function About() {
               </a>
             </li>
           </ul>
-          <h2>Bio</h2>
-          <h3>Job Title</h3>
-          <p>Java Trainer at Nexvalli [2022-Present]</p>
+
+          <h2>Where I've Worked</h2>
+          <p className="text-lg font-bold">
+            Java Trainer at{' '}
+            <span>
+              <a href={'https://nexxvali.com/'}>@Nexvalli</a>
+            </span>{' '}
+          </p>
+          <p className="-mt-6 text-sm text-gray-600 dark:text-gray-400">
+            July 2022 - Present
+          </p>
 
           <h2>Headshots</h2>
           <div className="flex space-x-8">
@@ -66,9 +71,8 @@ export default function About() {
             </a>
           </div>
         </div>
-      </div>
-
-      <div className="flex flex-col justify-center items-start max-w-4xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
+        {/* 
+        video links part */}
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-16 text-black dark:text-white">
           Watch my tutorials
         </h3>

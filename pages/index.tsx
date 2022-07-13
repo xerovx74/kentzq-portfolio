@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Container from '../components/Container';
 import BlogPostCard from '../components/BlogPostCard';
 
-export default function Home({ videos }) {
+export default function Home({}) {
   return (
     <Container>
       <div className="flex flex-col justify-center items-start max-w-4xl border-gray-200 dark:border-gray-700 mx-auto pb-16">
@@ -42,45 +42,43 @@ export default function Home({ videos }) {
               </ul>
             </p>
           </div>
-          <div className="w-[100px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
+          <div className="sm:w-[250px] w-[150px] relative mb-8 sm:mb-0 mr-auto  ">
             <Image
               alt="Debopriya Deb Roy"
               height={900}
               width={900}
-              src="/author.jpg"
-              className="rounded-full"
+              src="/authorNew.jpg"
+              className="rounded-3xl object-cover"
             />
           </div>
         </div>
-        <button className="relative inline-flex items-center justify-center p-0.5 mb-10 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white  focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-          <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-100 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-            Download Resume
-          </span>
+        <button className="p-1 sm:p-3 sm:w-60 font-bold -mt-8 mb-10 bg-gray-200 dark:bg-gray-800 text-center rounded-md text-black dark:text-white">
+          Download Resume
         </button>
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
           Featured Projects
         </h3>
         <div className="lg:grid lg:grid-cols-2 gap-6 grid grid-cols-1 ">
           <BlogPostCard
-            title="Download the latest Resume {last updated on 24th June, 2022}"
+            title="Karu Android App"
             slug="https://github.com/DDR13GIT/Karu_Android-app"
-            gradient="from-[#D8B4FE] to-[#818CF8]"
-            techs=""
-            description=""
+            gradient="from-[#612C67] to-[#392C67]"
+            techs="Java - Firebase Auth - Firestore"
+            description="Karu is an android app which is basically a buying-selling platform using firestore database to handle it's data."
           />
           <BlogPostCard
             title="Hobe Naki Tour"
-            slug="https://github.com/DDR13GIT/Karu_Android-app"
-            gradient="from-[#D8B4FE] to-[#818CF8]"
-            techs="php | tailwindCSS | html | mySQL"
+            slug="https://github.com/DDR13GIT/Hobe_Naki_Tour"
+            gradient="from-[#903A9A] to-[#6852B8]"
+            techs="php - tailwindCSS - html - MySQL"
             description="The Tours and Travel Management System is a web-based application. The system that automates the processes and activities of a travel agency. This application provides best travelling services to the customers and travel agents. The goal is to design a framework by which all operation relating to travel can be carried out. Here we have two part one is admin part and other is user part. Admin can add, update& delete user, category, package. User can select travel category, package & book them. Here we have different kind of packages & categories Main Features"
           />
           <BlogPostCard
-            title="Hobe Naki Tour"
-            slug="https://github.com/DDR13GIT/Karu_Android-app"
-            gradient="from-[#D8B4FE] to-[#818CF8]"
-            techs="php | tailwindCSS | html | mySQL"
-            description="The Tours and Travel Management System is a web-based application. The system that automates the processes and activities of a travel agency. This application provides best travelling services to the customers and travel agents. The goal is to design a framework by which all operation relating to travel can be carried out. Here we have two part one is admin part and other is user part. Admin can add, update& delete user, category, package. User can select travel category, package & book them. Here we have different kind of packages & categories Main Features"
+            title="IUMS (Integrated University Management System)"
+            slug="https://github.com/DDR13GIT/Integrated_University_Management_System-Project"
+            gradient="from-[#C12D72] to-[#B85282]"
+            techs="Java - JavaFx - Xampp - MySQL"
+            description="IUMS is a java written, javafx powered database management system for educational institution. It includes both student and admin end user interface and controls."
           />
         </div>
         <Link href="/projects">
