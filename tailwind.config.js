@@ -26,6 +26,12 @@ module.exports = {
           700: '#333333',
           800: '#222222',
           900: '#111111'
+        },
+        coral: {
+          0: '#d42a32'
+        },
+        purple: {
+          github: '#8250df'
         }
       },
       fontFamily: {

@@ -2,27 +2,66 @@ import Link from 'next/link';
 
 import Container from 'components/Container';
 
-const people = [
+const projectsList = [
   {
-    name: 'Jane Cooper',
-    title: 'Regional Paradigm Technician',
-    department: 'Optimization',
-    role: 'Admin',
-    email: 'jane.cooper@example.com'
+    name: 'BazarSodai',
+    madeWith: 'ASP. Net · MS-SQL-Server  ',
+    link: 'https://github.com/DDR13GIT/BazarSodai',
+    year: '2022'
   },
   {
-    name: 'John Doe',
-    title: 'Regional Paradigm Technician',
-    department: 'Optimization',
-    role: 'Tester',
-    email: 'john.doe@example.com'
+    name: 'Protfolio_website',
+    madeWith: 'Next.js, tailwindCSS, React, TypeScript',
+    link: 'https://github.com/DDR13GIT/Protfolio_website',
+    year: '2022'
   },
   {
-    name: 'Veronica Lodge',
-    title: 'Regional Paradigm Technician',
-    department: 'Optimization',
-    role: ' Software Engineer',
-    email: 'veronica.lodge@example.com'
+    name: 'TapCounter',
+    madeWith: 'Java, Android Studio',
+    link: 'https://github.com/DDR13GIT/TapCounter',
+    year: '2022'
+  },
+  {
+    name: 'Hobe_Naki_Tour',
+    madeWith: 'MySQL, Html, php, tailwindCSS',
+    link: 'https://github.com/DDR13GIT/Hobe_Naki_Tour',
+    year: '2022'
+  },
+  {
+    name: 'E-Hospital',
+    madeWith: 'MS-SQL-Server, Java, javafx',
+    link: 'https://github.com/DDR13GIT/E-Hospital',
+    year: '2022'
+  },
+  {
+    name: 'Karu_Android-app',
+    madeWith: 'Java, Android Studio',
+    link: 'https://github.com/DDR13GIT/Karu_Android-app',
+    year: '2021'
+  },
+  {
+    name: 'AirRush_Desktop_Game',
+    madeWith: 'C++, openGL',
+    link: 'https://github.com/DDR13GIT/AirRush_Desktop_Game',
+    year: '2020'
+  },
+  {
+    name: 'Calculator-Android-app',
+    madeWith: 'Java, Android Studio',
+    link: 'https://github.com/DDR13GIT/Calculator-Android-app',
+    year: '2021'
+  },
+  {
+    name: 'Integrated_University_Management_System',
+    madeWith: 'Java, JavaFx',
+    link: 'https://github.com/DDR13GIT/Integrated_University_Management_System-Project',
+    year: '2021'
+  },
+  {
+    name: 'Becholor_Point',
+    madeWith: 'Java, Java-Swing',
+    link: 'https://github.com/DDR13GIT/Becholor_Point',
+    year: '2020'
   }
 ];
 export default function Dashboard() {
@@ -46,89 +85,69 @@ export default function Dashboard() {
           </p>
         </div>
 
-        <div className="flex flex-col text-gray-600 dark:text-gray-400 mb-4">
-          <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-            <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-              <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-                <table className="min-w-full divide-y divide-gray-200">
-                  <thead className="">
-                    <tr>
-                      <th
-                        scope="col"
-                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                      >
-                        Title
-                      </th>
-                      <th
-                        scope="col"
-                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                      >
-                        Built with
-                      </th>
-                      <th
-                        scope="col"
-                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                      >
-                        Year
-                      </th>
-                      <th
-                        scope="col"
-                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
-                      >
-                        Link
-                      </th>
-                      <th scope="col" className="relative px-6 py-3">
-                        <span className="sr-only">Edit</span>
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody className=" divide-y divide-gray-500">
-                    {people.map((person) => (
-                      <tr key={person.email}>
-                        <td className="px-6 py-4 whitespace-nowrap">
-                          <div className="flex items-center">
-                            <div>
-                              <div className="text-sm font-medium text-gray-900">
-                                {person.name}
-                              </div>
-                              <div className="text-sm text-gray-500">
-                                {person.email}
-                              </div>
-                            </div>
-                          </div>
-                        </td>
-                        <td className="px-6 py-4 whitespace-nowrap">
-                          <div className="text-sm text-gray-900">
-                            {person.title}
-                          </div>
-                          <div className="text-sm text-gray-500">
-                            {person.department}
-                          </div>
-                        </td>
-                        <td className="px-6 py-4 whitespace-nowrap">
-                          <span
-                            className="px-2 inline-flex text-xs leading-5
-                      font-semibold rounded-full bg-green-100 text-green-800"
-                          >
-                            Active
-                          </span>
-                        </td>
+        <div className="overflow-x-auto relative sm:rounded-lg">
+          <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <thead className="text-xs font-bold text-gray-500 uppercase  dark:text-gray-400 ">
+              <tr>
+                <th scope="col" className="py-3 px-6">
+                  Year
+                </th>
+                <th scope="col" className="py-3 px-6">
+                  Project Title
+                </th>
+                <th scope="col" className="py-3 px-6">
+                  Built with
+                </th>
+                <th scope="col" className="py-3 px-6">
+                  Link
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {projectsList.map((project) => (
+                <tr
+                  key={project.name}
+                  className=" dark:border-gray-700 hover:bg-gray-200 dark:hover:bg-gray-800 font-bold "
+                >
+                  <th
+                    scope="row"
+                    className="py-4 px-6 font-medium  whitespace-nowrap text-cyan-500  "
+                  >
+                    {project.year}
+                  </th>
+                  <td className="py-4 px-6 dark:text-slate-100">
+                    {project.name}
+                  </td>
+                  <td className="py-4 px-6 font-mono">{project.madeWith}</td>
+                  <td className="py-4 px-6">
+                    <a
+                      href={project.link}
+                      className="font-medium hover:text-cyan-500"
+                    >
+                      {' '}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        role="img"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                        strokeLinejoin="round"
+                        width={20}
+                        height={20}
+                        // strokeLinecap={round}
 
-                        <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                          <a
-                            href="#"
-                            className="text-indigo-600 hover:text-indigo-900"
-                          >
-                            External Link
-                          </a>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
+                        className="feather feather-github"
+                      >
+                        <title>GitHub</title>
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                      </svg>
+                    </a>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
     </Container>

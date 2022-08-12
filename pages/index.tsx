@@ -13,12 +13,12 @@ export default function Home({}) {
             <h1 className="font-bold text-sm  tracking-wide mb-3 text-black dark:text-white">
               Hi, my name is
             </h1>
-            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-3 text-black dark:text-white">
+            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-3  text-transparent bg-clip-text bg-gradient-to-r from-purple-github  to-coral-0">
               Debopriya Deb Roy
             </h1>
             <h2 className="text-gray-700 dark:text-gray-200 mb-4">
               Currently studing CSE at{' '}
-              <span className="font-semibold">
+              <span className="font-semibold   ">
                 Ahsanullah University Of Science and Technology
               </span>
             </h2>
