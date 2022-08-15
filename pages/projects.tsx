@@ -52,7 +52,7 @@ const projectsList = [
     year: '2021'
   },
   {
-    name: 'Integrated_University_Management_System',
+    name: 'IUMS(University Management System)',
     madeWith: 'Java, JavaFx',
     link: 'https://github.com/DDR13GIT/Integrated_University_Management_System-Project',
     year: '2021'
@@ -80,7 +80,7 @@ export default function Dashboard() {
             solo projects I have done. All the details about them and video
             directly from
             <Link href="https://github.com/DDR13GIT?tab=repositories">
-              <a className="text-gray-900 dark:text-gray-100 ">Github.</a>
+              <a className="text-gray-900 dark:text-gray-100 "> Github.</a>
             </Link>
           </p>
         </div>

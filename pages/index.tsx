@@ -52,9 +52,19 @@ export default function Home({}) {
             />
           </div>
         </div>
-        <button className="p-1 sm:p-3 sm:w-60 font-bold -mt-8 mb-10 bg-gray-200 dark:bg-gray-800 text-center rounded-md text-black dark:text-white">
-          Download Resume
-        </button>
+
+        <div className="relative inline-flex -mt-8 mb-10 group ">
+          <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
+
+          <a
+            href="#"
+            className="relative inline-flex items-center justify-center px-7 py-3 text-lg font-bold bg-gray-200 text-black dark:text-white transition-all duration-200 dark:bg-gray-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+            role="button"
+          >
+            Download Resume
+          </a>
+        </div>
+
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
           Featured Projects
         </h3>

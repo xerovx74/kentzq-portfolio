@@ -74,34 +74,22 @@ export default function About() {
         {/* 
         video links part */}
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-16 text-black dark:text-white">
-          Watch my tutorials
+          Watch my contents
         </h3>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
-          It's some tutorials that I made with care and time.
+          It's some videos that I made with care and time.
         </p>
         <VideoCard
           index="01"
-          href="https://www.youtube.com/watch?v=MxR5I5_hOKk&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=2"
-          length="1:02:45"
-          title="Introduction to React 2025"
-        />
-        <VideoCard
-          index="02"
-          href="https://www.youtube.com/watch?v=AGl52moyISU&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=3"
-          length="54:22"
-          title="Firestore, Chakra UI, Absolute Imports"
+          href="https://www.youtube.com/watch?v=QQ9jP4Jl7pEhttps://www.youtube.com/watch?v=MxR5I5_hOKk&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=2"
+          length="6:15"
+          title="JavaFx Project Creation with IntelliJ Idea and Gradle"
         />
         <VideoCard
           index="03"
-          href="https://www.youtube.com/watch?v=3g6-v3_BNbM&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=4"
-          length="1:08:30"
-          title="Designing & Building the Dashboard"
-        />
-        <VideoCard
-          index="04"
-          href="https://www.youtube.com/watch?v=u8iv_yhSRI8&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=5"
-          length="1:13:45"
-          title="Firebase Admin with Next.js + SWR"
+          href="https://youtu.be/IBckTqARD-k"
+          length="6:11"
+          title="JavaFx Project -Integrated University Management System"
         />
         <a
           target="_blank"
