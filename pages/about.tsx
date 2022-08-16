@@ -81,12 +81,12 @@ export default function About() {
         </p>
         <VideoCard
           index="01"
-          href="https://www.youtube.com/watch?v=QQ9jP4Jl7pEhttps://www.youtube.com/watch?v=MxR5I5_hOKk&list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1&index=2"
+          href="https://youtu.be/QQ9jP4Jl7pE"
           length="6:15"
           title="JavaFx Project Creation with IntelliJ Idea and Gradle"
         />
         <VideoCard
-          index="03"
+          index="02"
           href="https://youtu.be/IBckTqARD-k"
           length="6:11"
           title="JavaFx Project -Integrated University Management System"
@@ -94,7 +94,7 @@ export default function About() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.youtube.com/playlist?list=PL6bwFJ82M6FXgctyoWXqj7H0GK8_YIeF1"
+          href="https://www.youtube.com/channel/UCVxQuVHJo8JZe_etepm5lXg/videos"
           className="flex mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6"
         >
           Watch all videos
