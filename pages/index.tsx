@@ -54,11 +54,11 @@ export default function Home({}) {
         </div>
 
         <div className="relative inline-flex -mt-8 mb-10 group ">
-          <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
+          <div className="absolute transitiona-all duration-1000 opacity-10 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
 
           <a
             href="#"
-            className="relative inline-flex items-center justify-center px-7 py-3 text-lg font-bold bg-gray-200 text-black dark:text-white transition-all duration-200 dark:bg-gray-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+            className="relative inline-flex items-center justify-center px-7 py-3 text-base font-semibold bg-gray-200 text-black dark:text-white transition-all duration-200 dark:bg-gray-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
             role="button"
           >
             Download Resume
@@ -71,21 +71,24 @@ export default function Home({}) {
         <div className="lg:grid lg:grid-cols-2 gap-6 grid grid-cols-1 ">
           <BlogPostCard
             title="Karu Android App"
-            slug="https://github.com/DDR13GIT/Karu_Android-app"
+            githubLink="https://github.com/DDR13GIT/Karu_Android-app"
+            youtubeLink=""
             gradient="from-[#612C67] to-[#392C67]"
             techs="Java - Firebase Auth - Firestore"
             description="Karu is an android app which is basically a buying-selling platform using firestore database to handle it's data."
           />
           <BlogPostCard
             title="Hobe Naki Tour"
-            slug="https://github.com/DDR13GIT/Hobe_Naki_Tour"
+            githubLink="https://github.com/DDR13GIT/Hobe_Naki_Tour"
+            youtubeLink=""
             gradient="from-[#903A9A] to-[#6852B8]"
             techs="php - tailwindCSS - html - MySQL"
-            description="The Tours and Travel Management System is a web-based application. The system that automates the processes and activities of a travel agency. This application provides best travelling services to the customers and travel agents. The goal is to design a framework by which all operation relating to travel can be carried out. Here we have two part one is admin part and other is user part. Admin can add, update& delete user, category, package. User can select travel category, package & book them. Here we have different kind of packages & categories Main Features"
+            description="The Tours and Travel Management System is a web-based application. The system that automates the processes and activities of a travel agency. This application provides best travelling services to the customers and travel agents."
           />
           <BlogPostCard
             title="IUMS (Integrated University Management System)"
-            slug="https://github.com/DDR13GIT/Integrated_University_Management_System-Project"
+            githubLink="https://github.com/DDR13GIT/Integrated_University_Management_System-Project"
+            youtubeLink="https://youtu.be/IBckTqARD-k"
             gradient="from-[#C12D72] to-[#B85282]"
             techs="Java - JavaFx - Xampp - MySQL"
             description="IUMS is a java written, javafx powered database management system for educational institution. It includes both student and admin end user interface and controls."
