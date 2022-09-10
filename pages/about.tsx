@@ -26,9 +26,6 @@ export default function About() {
               GitHub: <a href="https://github.com/DDR13GIT">@ddr13Git</a>
             </li>
             <li>
-              Website: <a>https://debopriyadebroy.vercel.app</a>
-            </li>
-            <li>
               Facebook:{' '}
               <a href="https://facebook.com/debopriya.deb.roy/">
                 @Debopriya Deb Roy
