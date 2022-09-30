@@ -23,12 +23,12 @@ export default function About() {
               </a>
             </li>
             <li>
-              GitHub: <a href="https://github.com/DDR13GIT">@ddr13Git</a>
+              GitHub: <a href="https://github.com/DDR13GIT">DDR13GIT</a>
             </li>
             <li>
               Facebook:{' '}
               <a href="https://facebook.com/debopriya.deb.roy/">
-                @Debopriya Deb Roy
+                Debopriya Deb Roy
               </a>
             </li>
           </ul>
@@ -37,7 +37,7 @@ export default function About() {
           <p className="text-lg font-bold">
             Java Trainer at{' '}
             <span>
-              <a href={'https://nexxvali.com/'}>@Nexvalli</a>
+              <a href={'https://nexxvali.com/'}>Nexvalli</a>
             </span>{' '}
           </p>
           <p className="-mt-6 text-sm text-gray-600 dark:text-gray-400">
@@ -51,7 +51,7 @@ export default function About() {
                 alt="Debopriya Deb Roy headshot"
                 width={400}
                 height={400}
-                quality={100}
+                quality={50}
                 src={avatar}
                 className="rounded-md"
               />
@@ -61,7 +61,7 @@ export default function About() {
                 alt="Debopriya Deb Roy headshot"
                 width={400}
                 height={400}
-                quality={100}
+                quality={50}
                 src={avatarBW}
                 className="rounded-md"
               />

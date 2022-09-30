@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Container from '../components/Container';
+import authorNew from 'public/authorNew.jpg';
 import BlogPostCard from '../components/BlogPostCard';
 
 export default function Home({}) {
@@ -43,13 +44,17 @@ export default function Home({}) {
             </p>
           </div>
           <div className="sm:w-[250px] w-[150px] relative mb-8 sm:mb-0 mr-auto  ">
+            
             <Image
               alt="Debopriya Deb Roy"
               height={900}
               width={900}
-              src="/authorNew.jpg"
+              src={authorNew}
+              quality={50}
               className="rounded-3xl object-cover"
+              
             />
+            
           </div>
         </div>
 
