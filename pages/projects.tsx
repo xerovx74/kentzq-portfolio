@@ -79,8 +79,10 @@ export default function Dashboard() {
             This is my project dashboard. Here I'll add all of my academic and
             solo projects I have done. All the details about them and video
             directly from
-            <Link href="https://github.com/DDR13GIT?tab=repositories">
-              <a className="text-gray-900 dark:text-gray-100 "> Github.</a>
+            <Link
+              href="https://github.com/DDR13GIT?tab=repositories"
+              className="text-gray-900 dark:text-gray-100 ">
+               Github.
             </Link>
           </p>
         </div>

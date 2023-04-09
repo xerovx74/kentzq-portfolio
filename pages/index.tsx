@@ -44,7 +44,6 @@ export default function Home({}) {
             </p>
           </div>
           <div className="sm:w-[250px] w-[150px] relative mb-8 sm:mb-0 mr-auto  ">
-            
             <Image
               alt="Debopriya Deb Roy"
               height={900}
@@ -52,9 +51,7 @@ export default function Home({}) {
               src={authorNew}
               quality={50}
               className="rounded-3xl object-cover"
-              
             />
-            
           </div>
         </div>
 
@@ -99,25 +96,6 @@ export default function Home({}) {
             description="IUMS is a java written, javafx powered database management system for educational institution. It includes both student and admin end user interface and controls."
           />
         </div>
-        <Link href="/projects">
-          <a className="flex mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
-            See all projects
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              className="h-6 w-6 ml-1"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M17.5 12h-15m11.667-4l3.333 4-3.333-4zm3.333 4l-3.333 4 3.333-4z"
-              />
-            </svg>
-          </a>
-        </Link>
 
         <span className="h-16" />
       </div>
