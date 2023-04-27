@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Container from '../components/Container';
-import authorNew from 'public/authorNew.jpg';
 import debProfilePicture from 'public/debProfilePicture.png';
 import BlogPostCard from '../components/BlogPostCard';
 
@@ -15,7 +14,7 @@ export default function Home({}) {
             <h1 className="text-3xl md:text-4xl tracking-tight mb-3 text-gray-700 dark:text-gray-200 font-serif font-thin">
               Debopriya Deb Roy
             </h1>
-            <h2 className="text-gray-700 dark:text-gray-200">
+            <h2 className="text-gray-700 dark:text-gray-300">
               "Politeness is the flower of humanity." -Joseph Joubert
             </h2>
 
@@ -101,7 +100,7 @@ export default function Home({}) {
             className="relative inline-flex items-center justify-center p-4 text-base font-semibold bg-gray-200 text-black dark:text-white transition-all duration-200 dark:bg-gray-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
             role="button"
           >
-            Download Resume
+            Download CV
           </Link>
         </div>
         <p className="text-sm ml-2 text-gray-500 mt-2">

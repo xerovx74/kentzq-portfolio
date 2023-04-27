@@ -10,9 +10,9 @@ export default function About() {
   return (
     <Container title="About – Debopriya Deb Roy">
       <div className="flex flex-col justify-center items-start max-w-4xl mx-auto mb-16 w-full">
-        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
+        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
           About Me
-        </h1>
+        </h3>
         <div className="mb-8 prose dark:prose-dark leading-6">
           <h3 className="font-bold text-2xl md:text-2xl tracking-tight mt-12 mb-6 text-black dark:text-white">
             Contact Links
@@ -108,7 +108,8 @@ export default function About() {
                   height="20"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
+                  <path
+                    d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
                     fill="currentColor"
                   />
                 </svg>
@@ -149,23 +150,32 @@ export default function About() {
           </ul> */}
 
           <h2>Where I've Worked</h2>
+          <div>
           <p className="text-lg font-bold">
-            Java Trainer at{' '}
+            Java Trainer @ {' '}
             <span>
               <a href={'https://nexxvali.com/'}>Nexvalli</a>
             </span>{' '}
           </p>
-          <p className="-mt-6 text-sm text-gray-600 dark:text-gray-400">
+          <p className="-mt-5 text-sm text-gray-600 dark:text-gray-400">
             July 2022 - Present
-          </p>
+            </p>
+            
+            <ul className=" text-base text-justify text-gray-500 dark:text-gray-400 list-disc font-semibold">
+            <li>Trained over 100 consultants in Java, covering both core and advanced topics, to equip them with the necessary skills to become proficient QA engineers.</li>
+            <li>Conducted comprehensive IT training sessions for consultants, covering essential topics such as Microsoft Office basics, web hosting and programming basics, search engine using techniques, using AI tools to complete daily jobs and proficient utilization of Google services.</li>
+          </ul>
+
+          </div>
+          
 
           <h2>Headshots</h2>
           <div className="flex space-x-8">
             <a href="/avatar.jpg">
               <Image
                 alt="Debopriya Deb Roy headshot"
-                width={400}
-                height={400}
+                width={200}
+                height={200}
                 quality={50}
                 src={avatar}
                 className="rounded-md"
@@ -174,8 +184,8 @@ export default function About() {
             <a href="/avatar-bw.jpg">
               <Image
                 alt="Debopriya Deb Roy headshot"
-                width={400}
-                height={400}
+                width={200}
+                height={200}
                 quality={50}
                 src={avatarBW}
                 className="rounded-md"
@@ -185,8 +195,8 @@ export default function About() {
         </div>
         {/* 
         video links part */}
-        <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-16 text-black dark:text-white">
-          Watch my contents
+        <h3 className="font-bold text-2xl md:text-2xl tracking-tight mt-12 mb-6 text-black dark:text-white">
+          Watch my vidoes
         </h3>
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           It's some videos that I made with care and time.
