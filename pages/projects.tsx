@@ -71,9 +71,9 @@ export default function Dashboard() {
       description="Collection of my personal projects"
     >
       <div className="flex flex-col justify-center items-start max-w-4xl mx-auto mb-16 ">
-        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
+      <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
           Projects
-        </h1>
+        </h3>
         <div className="mb-8">
           <p className="text-gray-600 dark:text-gray-400 mb-4">
             This is my project dashboard. Here I'll add all of my academic and
@@ -81,25 +81,26 @@ export default function Dashboard() {
             directly from
             <Link
               href="https://github.com/DDR13GIT?tab=repositories"
-              className="text-gray-900 dark:text-gray-100 ">
-               Github.
+              className="text-gray-900 dark:text-gray-100 "
+            >
+              Github.
             </Link>
           </p>
         </div>
-
-        <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <div className="table-responsive">
+        <table className="w-full text-base text-left text-gray-500 dark:text-gray-400">
           <thead className="text-xs font-bold text-gray-500 uppercase  dark:text-gray-400  tracking-wide">
             <tr>
-              <th scope="col" className="py-3 ">
+              <th scope="col" className="py-6 ">
                 Year
               </th>
-              <th scope="col" className="py-3 px-6 ">
+              <th scope="col" className="py-6 px-8 ">
                 Project Title
               </th>
-              <th scope="col" className="py-3 px-6 hidden sm:block">
+              <th scope="col" className="py-6 px-8 hidden sm:block">
                 Built with
               </th>
-              <th scope="col" className="py-3 pl-6">
+              <th scope="col" className="py-6 pl-8">
                 Link
               </th>
             </tr>
@@ -108,18 +109,18 @@ export default function Dashboard() {
             {projectsList.map((project) => (
               <tr
                 key={project.name}
-                className=" dark:border-gray-700 hover:bg-gray-200 font-bold dark:hover:bg-gray-800"
+                className=" transform hover:scale-[1.01]  font-bold transition-all border-b border-gray-200 dark:border-gray-700"
               >
-                <th scope="row" className="py-4  font-medium text-cyan-500">
+                <th scope="row" className="py-8  font-medium">
                   {project.year}
                 </th>
-                <td className="py-4 px-6 dark:text-slate-100 break-all">
+                <td className="py-8 px-8 dark:text-slate-100 break-all">
                   {project.name}
                 </td>
-                <td className="py-4 px-6 font-mono hidden break-all sm:block ">
+                <td className="py-8 px-8 font-mono hidden break-all sm:block ">
                   {project.madeWith}
                 </td>
-                <td className="py-4 pl-6">
+                <td className="py-8 pl-8">
                   <a
                     href={project.link}
                     className="font-medium hover:text-cyan-500"
@@ -148,6 +149,7 @@ export default function Dashboard() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
     </Container>
   );
