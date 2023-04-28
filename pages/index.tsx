@@ -98,8 +98,7 @@ export default function Home({}) {
           <Link
             href="#"
             className="relative inline-flex items-center justify-center p-4 text-base font-semibold bg-gray-200 text-black dark:text-white transition-all duration-200 dark:bg-gray-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
-            role="button"
-          >
+            role="button">
             Download CV
           </Link>
         </div>
@@ -154,7 +153,7 @@ export default function Home({}) {
           </ol>
         </div>
 
-        <h3 className="font-bold text-2xl md:text-2xl tracking-tight mt-12 mb-6 text-black dark:text-white">
+        {/* <h3 className="font-bold text-2xl md:text-2xl tracking-tight mt-12 mb-6 text-black dark:text-white">
           Featured Projects
         </h3>
         <div className="lg:grid lg:grid-cols-2 gap-6 grid grid-cols-1 ">
@@ -182,7 +181,7 @@ export default function Home({}) {
             techs="Java - JavaFx - Xampp - MySQL"
             description="IUMS is a java written, javafx powered database management system for educational institution. It includes both student and admin end user interface and controls."
           />
-        </div>
+        </div> */}
 
         <span className="h-16" />
       </div>
