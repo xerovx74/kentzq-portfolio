@@ -11,7 +11,6 @@ module.exports = {
         decimal: 'decimal',
         square: 'square',
         roman: 'upper-roman',
-        triangle: 'triangle'
       },
       colors: {
         'blue-opaque': 'rgb(13 42 148 / 18%)',
